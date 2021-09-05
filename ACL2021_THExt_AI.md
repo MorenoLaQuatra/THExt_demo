@@ -197,7 +197,7 @@
 
 - Here we generate the free-flow explanations in a two-step manner.
 
-- Query (q, a, c):   A.5 Anecdotal Examples: Free-Flow Explanation Generation Table 14 gives an example of free-flow explanation generation by the two variants of XGF system. (
+- Query (q, a, c): A.5 Anecdotal Examples: Free-Flow Explanation Generation Table 14 gives an example of free-flow explanation generation by the two variants of XGF system. (
 
 
 
@@ -413,7 +413,7 @@
 
 - In order to leverage both large-scale sentence-level parallel dataset and source-side monolingual documents for context-aware NMT, in this paper, we have proposed a novel cross-task pre-training approach, which simultaneously learns to translate a sentence from source language to target language while denoising a document from deliberately noised to original.
 
-- For example,  propose a two-stage training strategy for context-aware NMT by pre-training the model on a sentencelevel parallel dataset.
+- For example, propose a two-stage training strategy for context-aware NMT by pre-training the model on a sentencelevel parallel dataset.
 
 
 
@@ -809,7 +809,7 @@
 
 - We define the task of lexical semantic change discovery as follows.
 
-- We then tune the threshold to find the best-performing type-and token-based approach   (Schlechtweg et al., 2018).
+- We then tune the threshold to find the best-performing type-and token-based approach (Schlechtweg et al., 2018).
 
 
 
@@ -1709,7 +1709,7 @@
 
 - Our method achieves new state-of-the-art of zeroshot domain transfer learning for dialogue state tracking on the MultiWOZ 2.1 dataset (Table 1).
 
-- For the zero-shot domain transfer task, we exclude dialogues which contains target domain from  (Wolf et al., 2020).
+- For the zero-shot domain transfer task, we exclude dialogues which contains target domain from (Wolf et al., 2020).
 
 
 
@@ -1793,7 +1793,7 @@
 
 - The results of the experiments indicate that the intent proto-taxonomies embedded by those developers can indeed be used by many workspaces to improve accuracy in intent recognition, notably in OOS detection.
 
-- We proposed 3 new neuro-symbolic algo-  rithms and tested them using datasets built using data from intent identifiers of conversational systems.
+- Those accuracy improvements were achieved without any change in the training set but simply by incorporating the meta-knowledge into intent recognition.
 
 
 
@@ -2687,13 +2687,13 @@
 
 
 # [Language Embeddings for Typology and Cross-lingual Transfer Learning](https://aclanthology.org/2021.acl-long.560/)
-- We train our model on the English MultiNLI  dataset, and directly evaluate the trained model on the other languages without language-specific fine-tuning, in a zero-shot cross-lingual setting.
+- We train our model on the English MultiNLI dataset, and directly evaluate the trained model on the other languages without language-specific fine-tuning, in a zero-shot cross-lingual setting.
 
 - In this paper, following the finding that structural similarity is critical in multilingual language models (K et al., 2020), we generate language embeddings from a denoising autoencoder objective and demonstrate that they can be effectively used in cross-lingual zero-shot learning.
 
 - We showed that the trained language embeddings represent typological information, and can also benefit the downstream tasks in a zero-shot learning setting.
 
-- In addition, to address the question of whether the learned language embeddings can help in downstream language tasks, we plug-in the language embeddings to cross-lingual dependency parsing and natural language inference (XNLI,  in a zero-shot learning setting, obtaining performance improvements.
+- In addition, to address the question of whether the learned language embeddings can help in downstream language tasks, we plug-in the language embeddings to cross-lingual dependency parsing and natural language inference (XNLI, in a zero-shot learning setting, obtaining performance improvements.
 
 
 
@@ -2847,7 +2847,7 @@
 
 - In this paper, we explore whether training large transformer models using the reranking objective can further improve performance.
 
-- Indeed, recent generative reranking approaches applied to NMT, such as Noisy-Channel Decoding (NCD,  which leverages a pre-trained language model and a backward model, show strong improvements over beam search outputs, as demonstrated in recent WMT evaluations .
+- Indeed, recent generative reranking approaches applied to NMT, such as Noisy-Channel Decoding (NCD, which leverages a pre-trained language model and a backward model, show strong improvements over beam search outputs, as demonstrated in recent WMT evaluations .
 
 - We can see that in all cases, discriminative reranking yields better translations, with gains between 0.2 and 2.3 BLEU points depending on the language direction.
 
@@ -3053,7 +3053,7 @@
 
 - Finally, the prediction module leverages the graph-based representations to predict the state and location.
 
-- We evaluate the proposed approach on two benchmark datasets for procedural text understanding, ProPara  and Recipes .
+- We evaluate the proposed approach on two benchmark datasets for procedural text understanding, ProPara and Recipes .
 
 
 
@@ -3593,7 +3593,7 @@
 
 - As illustrated in Figure 2, the model consists of two stages, clue searching and temporal reasoning.
 
--   for the temporal reasoning task addressed in this paper.
+-  for the temporal reasoning task addressed in this paper.
 
 
 
@@ -4067,7 +4067,7 @@
 
 
 # [A Hierarchical VAE for Calibrating Attributes while Generating Text using Normalizing Flow](https://aclanthology.org/2021.acl-long.187/)
-- We propose a hierarchical model using Variational Autoencoders (Kingma and Welling, 2013) to achieve fine grained control over attribute space while maintaining the quality of the generated sen- tences.
+- We propose a hierarchical model using Variational Autoencoders (Kingma and Welling, 2013) to achieve fine grained control over attribute space while maintaining the quality of the generated sentences.
 
 - Automatic generation of content with fine regulation of attributes like sentiment and style is extremely beneficial in this context.
 
@@ -4559,7 +4559,7 @@
 
 
 # [Controllable Open-ended Question Generation with A New Question Type Ontology](https://aclanthology.org/2021.acl-long.502/)
-- Distri- 4 Type-aware Open-ended Question Generation In this section, we present our type-aware question generation framework.
+- Distri4 Type-aware Open-ended Question Generation In this section, we present our type-aware question generation framework.
 
 - Automatic metrics show that our type-aware question generation model outperforms competitive comparisons, highlighting the effectiveness of semantic graph-augmented representation and joint modeling of focus prediction and question generation.
 
@@ -5221,7 +5221,7 @@
 # [Learning Event Graph Knowledge for Abductive Reasoning](https://aclanthology.org/2021.acl-long.403/)
 - (c) A latent variable z is employed to learn the commonsense knowledge from event graph.
 
-- To facilitate this,  proposed a text based abductive reasoning task αNLI.
+- To facilitate this, proposed a text based abductive reasoning task αNLI.
 
 - In this paper, we employ event graph knowledge for guiding the abductive reasoning.
 
@@ -5369,7 +5369,7 @@
 
 - Previous work on review summarization was dominated by two paradigms: aspect-based sentiment summarization and multi-document opinion summarization.
 
-- The resulting summary provides both textual and quantitative   views of the data, as illustrated in Table 1.
+- The resulting summary provides both textual and quantitative views of the data, as illustrated in Table 1.
 
 
 
@@ -5571,7 +5571,7 @@
 
 - Task and Evaluation We validate the utility of our transition-based parser using the task of coordination structure prediction.
 
-- Experiments on the English Penn Treebank (PTB;  extended with coordination annotation  and the English GENIA treebank  demonstrate the effectiveness of our proposed transition-based bubble parsing on the task of coordination structure prediction.
+- Experiments on the English Penn Treebank (PTB; extended with coordination annotation and the English GENIA treebank demonstrate the effectiveness of our proposed transition-based bubble parsing on the task of coordination structure prediction.
 
 - Our method achieves state-of-the-art performance on both datasets and improves accuracy on the subset of sentences exhibiting complex coordination structures.
 
@@ -6015,7 +6015,7 @@
 
 - However, pitch and intensity features are extracted from the speech signal at the frame level.
 
-- The turn-based parser's task is also more com- plex: it has to perform both SU segmentation and parsing, rather than parsing alone.
+- The turn-based parser's task is also more complex: it has to perform both SU segmentation and parsing, rather than parsing alone.
 
 - We report the model's performance with and without prosodic features during the segmentation and parsing steps.
 
@@ -6239,7 +6239,7 @@
 
 
 # [An End-to-End Progressive Multi-Task Learning Framework for Medical Named Entity Recognition and Normalization](https://aclanthology.org/2021.acl-long.485/)
-- To capture the semantic features of two tasks,  proposed a multi-task learning framework with an explicit feedback strategy for medical NER and NEN.
+- To capture the semantic features of two tasks, proposed a multi-task learning framework with an explicit feedback strategy for medical NER and NEN.
 
 - Based on this idea, we propose an end-to-end progressive multi-task learning framework for medical named entity recognition and normalization (E2EMERN 1 ).
 
