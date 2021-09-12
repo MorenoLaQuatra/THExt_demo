@@ -1,4 +1,4 @@
-# THExt_demo
+# Transformer-based highlights extraction from scientific papers (THExt demo)
 
 This repository contains a demo of the model proposed in the paper "Transformer-based highlights extraction from scientific papers". Each `md` file contains a set of highlights extracted from the papers accepted at ACL 2021 conference. Specifically:
 
